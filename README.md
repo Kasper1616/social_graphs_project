@@ -8,3 +8,10 @@ Specifically, we will:
 	3.	Investigate whether community structure correlates with differences in tone or extremity of language.
 
 Ultimately, this project seeks to shed light on how online crowd behavior and linguistic polarization manifest in live digital spaces and whether platform network structure can help explain the rise of extreme or toxic subcultures within Twitch chat communities.
+
+Project Structure:
+├── notebooks/                      # Jupyter notebooks
+├── Proj3/                          # Project files for graph
+├── plots/                      	# plots                
+├── .gitignore
+└── README.md                       # Project README
