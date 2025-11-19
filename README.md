@@ -10,8 +10,14 @@ Specifically, we will:
 Ultimately, this project seeks to shed light on how online crowd behavior and linguistic polarization manifest in live digital spaces and whether platform network structure can help explain the rise of extreme or toxic subcultures within Twitch chat communities.
 
 Project Structure:
-├── notebooks/                      # Jupyter notebooks
-├── Proj3/                          # Project files for graph
-├── plots/                      	# plots                
+├── notebooks/                              # Ordered exploratory analysis notebooks
+│   ├── 00_network_construction.ipynb       # Data prep and graph building
+│   ├── 01_basic_network_analysis.ipynb     # Degree, density, clustering
+│   ├── 02_advanced_measures.ipynb          # Centrality and structural roles
+│   ├── 03_network_clustering.ipynb         # Community detection experiments
+│   ├── 04_text_processing.ipynb            # Cleaning and tokenizing chat logs
+│   ├── 05_tfidf.ipynb                      # TF-IDF feature engineering
+│   └── 06_sentiment_analysis.ipynb         # Sentiment & toxicity scoring
+├── Proj3/                                  # Processed Twitch mention network artifacts
 ├── .gitignore
-└── README.md                       # Project README
+└── README.md                               # Project README
